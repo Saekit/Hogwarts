@@ -13,7 +13,7 @@ class UpdateForm extends React.Component {
       <div>
         <form onSubmit={this.submitHandler}>
           <label>
-            Change house: 
+            Change house:
             <select value={this.props.value} onChange={this.props.handleChange}>
             <option value="Gryffindor">Gryffindor</option>
             <option value="HufflePuff">HufflePuff</option>

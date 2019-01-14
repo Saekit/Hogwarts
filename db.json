@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Hermione Granger",
       "age": 17,
-      "house": "Ravenclaw",
+      "house": "Gryffindor",
       "role": "student",
       "image1": "https://wallpapersite.com/images/pages/pic_w/8936.jpg",
       "image2": "https://vignette.wikia.nocookie.net/harrypotter/images/7/7e/Hermione-HBP-hermione-granger-16048675-1919-2560.jpg/revision/latest?cb=20140628051753"
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Ron Weasley",
       "age": 17,
-      "house": "HufflePuff",
+      "house": "Ravenclaw",
       "role": "student",
       "image1": "http://images4.fanpop.com/image/photos/23000000/DH-Part-II-ronald-weasley-23081519-500-296.jpg",
       "image2": "https://images.pottermore.com/bxd3o8b291gf/4kRGmTOvVYmIwsOikwcuUw/8b8f2e4ffcc1a5218bafe615f976abb0/Ron_Weasley_WB_F1_Ron_with_Scabbers_on_shoulder_00393692.jpg?w=1200"
@@ -53,6 +53,42 @@
       "role": "professor",
       "image1": "https://fsmedia.imgix.net/21/fd/33/16/2844/4ec3/bae9/57d38001e216/sonserina.jpeg?rect=0%2C0%2C1920%2C959&dpr=2&auto=format%2Ccompress&w=650",
       "image2": "https://imgix.bustle.com/rehost/2016/9/13/4685a819-e442-4e36-af5b-9c8c42bfbf00.jpg?w=970&h=582&fit=crop&crop=faces&auto=format&q=70"
+    },
+    {
+      "name": "Luna Lovegood",
+      "age": "16",
+      "house": "Ravenclaw",
+      "role": "student",
+      "image1": "https://am22.akamaized.net/tms/cnt/uploads/2018/08/EvannaLynch.jpg",
+      "image2": "https://am23.akamaized.net/tms/cnt/uploads/2015/05/lunalovebood.jpg",
+      "id": 14
+    },
+    {
+      "name": "Newt Scamander",
+      "age": "29",
+      "house": "HufflePuff",
+      "role": "student",
+      "image1": "https://i.ytimg.com/vi/FD2I6H0e470/maxresdefault.jpg",
+      "image2": "https://images.immediate.co.uk/volatile/sites/3/2018/09/FantasticBeasts_02-344bb45-546d9b0.jpg",
+      "id": 15
+    },
+    {
+      "name": "Nympgadora Tonks",
+      "age": "25",
+      "house": "HufflePuff",
+      "role": "student",
+      "image1": "https://images.pottermore.com/bxd3o8b291gf/4RCmWhTVFSUk4CQGuYqIIm/99a360b9d5e3907824b0763fc079d972/NymphadoraTonks_WB_F5_NympadoraTonksPromoShot_Promo_100615_Port.jpg",
+      "image2": "http://www.favslist.com/photos/pages/x1/Nymphadora-Tonks-1461351289-63507.jpg",
+      "id": 16
+    },
+    {
+      "name": "Cho Chang",
+      "age": "17",
+      "house": "Ravenclaw",
+      "role": "student",
+      "image1": "https://images.pottermore.com/bxd3o8b291gf/4PbTuJ9S2QoEwycW4gs4Mg/21f94bfe4081438a9bc3c159c2831b5a/ChoChang_WB_F5_ChoChangPointingWand_Promo_080615_Port.jpg",
+      "image2": "http://images5.fanpop.com/image/photos/28200000/Cho-Chang-promo-pics-ravenclaw-28214458-1919-2560.jpg",
+      "id": 17
     }
   ],
   "houses": [

@@ -12,15 +12,29 @@ class NewCharacterForm extends React.Component {
   }
 
   changeHandler = (e) => {
-    console.log(e.target.value)
     this.setState({
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     })
   }
 
   submitHandler = (e) => {
     e.preventDefault()
     this.props.newCharacter(this.state)
+    fetch("http://localhost:3001/characters", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: JSON.stringify({
+          name: this.state.name,
+          age: this.state.age,
+          house: this.state.house,
+          role: this.state.role,
+          image1: this.state.image1,
+          image2: this.state.image2
+        })
+      })
     this.setState({
         name: "",
         age: "",
@@ -33,9 +47,9 @@ class NewCharacterForm extends React.Component {
 
   render(){
     return(
-      <div>
-        <form onSubmit={this.submitHandler}
-          className={'newCharForm'}>
+      <div className={'newCharForm'}>
+      <h1>Add a Character</h1>
+        <form onSubmit={this.submitHandler}>
           <input
             type="text"
             name="name"
@@ -53,7 +67,8 @@ class NewCharacterForm extends React.Component {
           <label>
             House:
             <select
-            value={this.state.house}
+            name="house"
+            value={this.state.value}
             onChange={this.changeHandler}>
             <option value="Gryffindor">
             Gryffindor
@@ -72,7 +87,8 @@ class NewCharacterForm extends React.Component {
           <label>
             Role:
             <select
-            value={this.state.role}
+            name="role"
+            value={this.state.value}
             onChange={this.changeHandler}>
             <option value="student">
             student

@@ -3,11 +3,11 @@
 1. app -- CharacterContainer -- Character -- UpdateForm
 show the container with character cards inside
   -image1, their name, and their house
-
-2. app -- form
   -on char container, click on character's house will bring up a form to change their house
 
-3. app -- HouseContainer -- House || CharacterDetails
+2. app -- new character form
+
+3. app -- HouseContainer -- House || CharacterDetails -- UpdateForm
 
 
 Deliverables:
@@ -21,7 +21,7 @@ Deliverables:
 
 ✅- Have 4 sections underneath the list that shows each Hogwarts house (Gryffindor, Slytherin, HufflePuff, Ravenclaw) as well as the image2 for the characters who belong to those houses
 
-- Have a form to add characters on submit
+✅- Have a form to add characters on submit
   - Do this optimistically and then do it using fetch
   --> componentDidUpdate()
   fetch(api, POST)
@@ -30,7 +30,7 @@ Deliverables:
 --> onClick (on House) to clickHandler (on House) to toggle character details (props to char details) showing
   --> if clicked is true display details
 
+- Have a search form that allows you to search characters by name or house
+
 - When you click on the house you should be able to change the house
   --> same as CharCard, but in House
-
-- Have a search form that allows you to search characters by name or house
